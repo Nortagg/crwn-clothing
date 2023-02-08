@@ -13,7 +13,7 @@ class SignIn extends React.Component {
     };
   }
   handleSubmit = (event) => {
-    event.perventDefault();
+    event.preventDefault();
 
     this.setState({ email: "", password: "" });
   };
